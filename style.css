@@ -23,13 +23,27 @@ body {
   width: 325px;
   height: 600px;
 }
+.container::before{
+    content:'register';
+    position: absolute;
+    
+    top:12px;
+    right:30px;
+    color:#1976d2;
+    font-size:15px;
+}
+
+
 .form__container {
   background-color: #fff;
   padding: 15px;
+  /* position: relative; */
 
   display: flex;
   flex-direction: column;
 }
+
+
 .form__header {
   margin: 50px 0;
 }
